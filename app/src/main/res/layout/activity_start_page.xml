@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/code_monsters_screen"
+    tools:context="com.example.vaharamus.codemonster.Crown.StartPageActivity">
+
+
+    <Button
+        android:id="@+id/btnSignks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnRegisterks"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="92dp"
+        android:text="@string/sign_in" />
+
+    <Button
+        android:id="@+id/btnRegisterks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="73dp"
+        android:text="@string/register" />
+
+</RelativeLayout>

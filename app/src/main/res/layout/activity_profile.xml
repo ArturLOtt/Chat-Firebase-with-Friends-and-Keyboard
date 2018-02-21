@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightningAtlantis"
+    tools:context="com.example.vaharamus.codemonster.Crown.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/profile_visit_imageks"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/default_image"
+        />
+
+    <TextView
+        android:id="@+id/txtDisplay_nameks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/profile_visit_imageks"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Display UserName"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDisplay_statusks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtDisplay_nameks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Display UserStatus"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_send_requestks"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_send_declineks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="@color/colorLightAtlantis"
+        android:text="Button"
+        android:textSize="18sp"
+        tools:text="Send Friend Request" />
+
+    <Button
+        android:id="@+id/btn_send_declineks"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/darker_gray"
+        android:text="Decline Friend Request"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

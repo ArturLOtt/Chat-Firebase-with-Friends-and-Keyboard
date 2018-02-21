@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monsters_screen_register"
+    tools:context="com.example.vaharamus.codemonster.Gate.RegisterActivity">
+
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/registertoolks">
+
+    </include>
+
+    <EditText
+        android:id="@+id/txtRegister1ks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="242dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/white"
+        android:hint="@string/username"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:textColorHint="?attr/colorButtonNormal" />
+
+    <EditText
+        android:id="@+id/txtRegister2ks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtRegister1ks"
+        android:layout_alignTop="@+id/txtRegister1ks"
+        android:layout_marginTop="69dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/e_mail"
+        android:inputType="textMultiLine|textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        tools:textColorHint="?attr/colorButtonNormal" />
+
+    <EditText
+        android:id="@+id/txtRegister3ks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtRegister2ks"
+        android:layout_below="@+id/txtRegister2ks"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/password"
+        android:inputType="textMultiLine|textPassword"
+        android:textAlignment="center"
+        android:textColor="?attr/colorButtonNormal"
+        android:textSize="20sp"
+        tools:textColorHint="?attr/colorButtonNormal"
+        tools:textColorLink="?attr/colorButtonNormal" />
+
+    <Button
+        android:id="@+id/btnRegister2ks"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtRegister3ks"
+        android:layout_marginTop="21dp"
+        android:background="@color/colorLightAtlantis"
+        android:text="@string/create_account"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</RelativeLayout>

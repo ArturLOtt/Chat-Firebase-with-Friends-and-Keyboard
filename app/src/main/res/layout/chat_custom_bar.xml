@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightningAtlantis">
+
+
+    <TextView
+        android:id="@+id/txtCustomProfileNameks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="13dp"
+        android:text="Display_UserName"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCustomLastSeenks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtCustomProfileNameks"
+        android:layout_below="@+id/txtCustomProfileNameks"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="3dp"
+        android:text="Last_Seen"
+        android:textColor="?attr/colorButtonNormal"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgCustomProfileImageks"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txtCustomProfileNameks"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/default_image" />
+
+
+</RelativeLayout>

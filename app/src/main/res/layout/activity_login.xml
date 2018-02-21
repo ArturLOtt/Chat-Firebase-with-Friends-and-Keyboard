@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monsters_screen_login"
+    tools:context="com.example.vaharamus.codemonster.Gate.LoginActivity">
+
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/logintoolks">
+
+    </include>
+
+    <EditText
+        android:id="@+id/txtLogin2ks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtLogin3ks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="E-mail"
+        android:inputType="textMultiLine|textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        tools:textColorHint="?attr/colorButtonNormal" />
+
+    <EditText
+        android:id="@+id/txtLogin3ks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnLogin2ks"
+        android:layout_alignStart="@+id/txtLogin2ks"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Password"
+        android:inputType="textMultiLine|textPassword"
+        android:textAlignment="center"
+        android:textColor="?attr/colorButtonNormal"
+        android:textSize="20sp"
+        tools:textColorHint="?attr/colorButtonNormal"
+        tools:textColorLink="?attr/colorButtonNormal" />
+
+    <Button
+        android:id="@+id/btnLogin2ks"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorLightAtlantis"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</RelativeLayout>

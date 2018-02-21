@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "323199338887",
+    "firebase_url": "https://code-monster.firebaseio.com",
+    "project_id": "code-monster",
+    "storage_bucket": "code-monster.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323199338887:android:59a6ad9fa2963a8e",
+        "android_client_info": {
+          "package_name": "com.example.vaharamus.codemonster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323199338887-klsdu4nhmr2tqm4buk2m405t5immjasa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaharamus.codemonster",
+            "certificate_hash": "42288abfa8db081a316263e6bb4dab177270de12"
+          }
+        },
+        {
+          "client_id": "323199338887-3dt5s1h6aj213j7ditr38job9ctd0vct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaharamus.codemonster",
+            "certificate_hash": "56a7bf036f2708127d49a5a18325e437563c2f39"
+          }
+        },
+        {
+          "client_id": "323199338887-0kj6krgnhq3qrlt8j5lbhc73rqleou9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPFQBaQCHDGzRoNlOkLABq9j530wJXDdM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323199338887-0kj6krgnhq3qrlt8j5lbhc73rqleou9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

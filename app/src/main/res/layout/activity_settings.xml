@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightningAtlantis"
+    tools:context="com.example.vaharamus.codemonster.Crown.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settingsImageks"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:src="@drawable/default_image" />
+
+    <TextView
+        android:id="@+id/settingsUsernameks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/settingsStatusks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingsUsernameks"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="User Profile Status"
+        android:textAlignment="center"
+        android:textColor="?attr/colorButtonNormal"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_imageks"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/settingsStatusks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Change Image"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_statusks"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn_imageks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/colorLightAtlantis"
+        android:text="Change Status"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

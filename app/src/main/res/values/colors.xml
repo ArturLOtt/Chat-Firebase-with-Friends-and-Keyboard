@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0a2020</color>
+    <color name="colorAccent">#a2f9fd</color>
+
+    <color name="colorLightAtlantis">#52c1c1</color>
+    <color name="colorPrimaryAtlantis">#113636</color>
+    <color name="colorLightningAtlantis">#1e6060</color>
+    <color name="colorAtlantisWhiteOne">#49d162</color>
+    <color name="colorAtlantisWhiteTwo">#8f66e7</color>
+
+
+
+    <color name="color31">#313335</color>
+    <color name="colorWhiteSimple">#d7e1ec</color>
+</resources>
